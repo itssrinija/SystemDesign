@@ -1,1 +1,38 @@
+Choice of Data Storage depends on the below
+	• Structure of the data - structured/unstructured
+	• Query Pattern
+	• Amount of scale that we need to handle
+	
+Caching Solutions : Key, value store
+	• In memory Cache
+	• Redis
+	• MemCache
+	• Etcd
+File Storage Solutions
+	• Images/Videos:  Blob storage
+	• CDN: Distribute the file/image in various geographic locations for faster access
+
+Text Searching Engine
+	• Elastic Search
+	• Solr
+   Edit distance
+
+Metrics Tracking
+  Time Series Database which supports append mode - Open Timeseries DB
+
+Analytics on the data of the company
+ Dataware house
+
+Structured Data
+When data needs atomicity such as payment system we can use RDBMS
+
+UnStructured Data : No SQL Models
+
+Type of the data
+More no of attributes for the Data  & wide variety of queries
+Then Document DB is preferred. Ex: Mongo DB, Couchbase
+
+Ever Increasing Data
+Uber  sending coordinates
+Columnar DB: Cassandra
 
